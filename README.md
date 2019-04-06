@@ -1,5 +1,5 @@
 # mnist-vgg16
-Simple implementation of VGG16 on Cifar10 Dataset.
+Simple implementation of VGG16 on MNIST Dataset.
 
 ### Dataset : MNIST
 
@@ -29,7 +29,7 @@ Batch size = 128 (seems to be a good amount of images, not too big, not too smal
  
 ### Accuracy
 
-![image](https://user-images.githubusercontent.com/46073809/55661924-e85a9300-57c3-11e9-9968-a9c8ba7d09de.png)
+    Test accuracy: 99.21 %
  
 Test Accuracy =  (Number of Correctly Classified Test Samples)/(Total Number of Test Samples)
 
@@ -39,14 +39,15 @@ Test Accuracy =  (Number of Correctly Classified Test Samples)/(Total Number of 
 
 ![image](https://user-images.githubusercontent.com/46073809/55661943-1049f680-57c4-11e9-9b95-99d3133fbab9.png)
 
-![image](https://user-images.githubusercontent.com/46073809/55661968-5e5efa00-57c4-11e9-9c05-6f011d2fcefb.png)
+    Epoch 50/50
+    45000/45000 [==============================] - 15s 331us/step - loss: 0.0123 - acc: 0.9990 - val_loss: 0.0329 - val_acc: 0.9979
 
 It is observed that network converges to Training accuracy of 99.9 % and Validation accuracy of 99.79 % at 50th epoch.
 
 ### Runtime
 
->CPU times: user 10min 13s, sys: 1min 55s, total: 12min 8s
->Wall time: 12min 31s
+    CPU times: user 10min 13s, sys: 1min 55s, total: 12min 8s
+    Wall time: 12min 31s
 
 It only took about 13 minutes to train as I was using GPU.
 
