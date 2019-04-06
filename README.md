@@ -23,7 +23,9 @@ I decided to use VGG16 model (Convolutional Neural Network) to classify Images.
 ### Model Summary
 
 Number of Epochs = 50 (because it is observed that accuracy starts converging after 20-25 epochs)
+    nb_epoch = 50
 Batch size = 128 (seems to be a good amount of images, not too big, not too small)
+    batch_size = 128
 
 ![image](https://user-images.githubusercontent.com/46073809/55661899-c06b2f80-57c3-11e9-8cb7-f8e339ce1d02.png)
  
