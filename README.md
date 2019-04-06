@@ -1,5 +1,5 @@
 # mnist-vgg16
-Simple implementation of VGG16 on MNIST Dataset.
+Simple implementation of VGG16 on MNIST Dataset using Keras.
 
 ### Dataset : MNIST
 
